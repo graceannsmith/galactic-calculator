@@ -1,0 +1,29 @@
+{
+  "name": "galactic-calculator",
+  "version": "1.0.0",
+  "description": "Super Galactic Age Calculator A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Write an application that determines a user's age based on a planet's solar years.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "start": "npm run build && webpack-dev-server --open --mode=development",
+    "lint": "eslint src --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.42.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.0",
+    "webpack": "5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "4.15.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
