@@ -1,9 +1,7 @@
-import GalacticCalc from "./../src/galactic-calculator.js";
-
+import GalacticCalc from './../src/galactic-calculator.js';
 describe('GalacticCalc', () => {
-test('should create an empty obect', () => {
-    const emptyObj = new GalacticCalc();
-    expect({}).toEqual({});
-})
-
+test('should create and empty object', () => {
+const emptyObject = GalacticCalc();
+expect(emptyObject).toEqual({});
+});
 })

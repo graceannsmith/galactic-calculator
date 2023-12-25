@@ -1,4 +1,4 @@
-export default function GalacticCalc() {
+export default class GalacticCalc{
 
 }
   
