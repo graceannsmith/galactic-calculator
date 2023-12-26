@@ -1,15 +1,10 @@
 import GalacticCalc from './../src/galactic-calculator.js';
-
-describe('GalacticCalc', () => {
-test('should create and empty object', () => {
-const emptyObject = new GalacticCalc();
-expect(emptyObject).toEqual({});
+describe('Galactic Calculator' , () => {
+    test('should accurately create object with three properties', () => {
+    const test1 = new GalacticCalc (45, 35, 55)
+    expect(test1.age).toEqual(45);
+    expect(test1.pastBirthday).toEqual(35);
+    
 });
 
-describe('GalacticCalc', () => {
-test('should create object with age property in Earth years', () => {
-    const testOne = new GalacticCalc(42);
-    expect(testOne).toEqual({currentEarthYear: 42})
-})
-})
 });

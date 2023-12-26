@@ -1,6 +1,5 @@
-export default class GalacticCalc{
- constructor () {
+export default class GalacticCalc {
     
-}
-}
-  
+    
+
+  }
