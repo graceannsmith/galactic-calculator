@@ -17,7 +17,19 @@ describe('Galactic Calculator' , () => {
             currentMarsYear: 22,
             currentJupiterYear: 3
           });
+        });
+
+    test('should create an object with that displays time since past target bday in other planet years and current age', () => {
+    expect(test1.pastBirthday).toEqual({
+        earthYearsSinceTargetBirthday: 7,
+        mercuryYearsSinceTargetBirthday: 30,
+        venusYearsSinceTargetBirthday: 11,
+        marsYearsSinceTargetBirthday: 4,
+        jupiterYearsSinceTargetBirthday: 1
+    });
+    });
+   
   });
 
-});
+
 
